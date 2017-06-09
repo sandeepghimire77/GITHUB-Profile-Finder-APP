@@ -11,6 +11,10 @@ export class ProfileComponent implements OnInit {
 
   constructor(private _githubService:GithubService) {
   // here we set up the GithubService that we imported
+    this._githubService.getUser().subscribe(user=> {
+      console.log(user);
+    });
+
   }
 
   ngOnInit() {

@@ -1,5 +1,6 @@
 # GITHUB-Profile-Finder-APP
 -Framework-> Angular 2
+- Concepts - API fetch
 -Language-> Typescript
 
 Description
